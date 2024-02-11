@@ -11,10 +11,10 @@ var imgSrcArray  = ['./assets/grad.JPG', './assets/coffee.jpg', './assets/cfm.jp
   
 setInterval(function() {
  counter++;
- if(counter ==4)
+ if(counter ==3)
  {
   counter = 0;
  }
   image.src = imgSrcArray[counter]
-}, 4000); 
+}, 1000); 
 
